@@ -1,7 +1,7 @@
 # tests/backend/conftest.py
 import copy
 
-from pytest import fixture
+import pytest
 from fastapi.testclient import TestClient
 
 from src.app import app, activities
